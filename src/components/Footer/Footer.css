@@ -1,0 +1,327 @@
+/* Subscribe */
+	.subscribe{
+		position: relative;
+		background-color: #eee;
+		text-align: center;
+		box-sizing: border-box;
+		padding: 10px 0px;
+	}
+
+	footer .subscribe{
+		position: relative;
+		background-color: transparent;
+		text-align: right;
+		box-sizing: border-box;
+		padding: 10px 0px;
+	}
+
+	.subscribe form{
+		position: relative;
+		width: 100%;
+		height: auto;
+		z-index: 100;
+	}
+
+	.subscribe form input{
+		display: inline-block;
+		width: 200px;
+	}
+/* Subscribe */
+/* Footer */
+	footer {
+		position: relative;
+		display: block;
+		width: 100%;
+		height: auto;
+		background-color: #fff;
+	}
+
+	/* About */
+		footer .about {
+			display: block;
+			width: 100%;
+			height: auto;
+			border-top: 1px solid #eee;
+			border-bottom: 1px solid #eee;
+		}
+
+		footer .about .item {
+			display: block;
+			position: relative;
+			width: 100%;
+			height: auto;
+			overflow: hidden;
+		}
+
+		footer .about .item > i {
+			float: left;
+			display: block;
+			font-size: 38px;
+			line-height: 38px;
+			margin-right: 15px;
+		}
+
+		footer .about .item > h1 {
+			float: left;
+			display: block;
+			font-size: 20px;
+			line-height: 20px;
+			margin: 0;
+		}
+
+		footer .about .item > h1 > span {
+			color: #888;
+			font-weight: 100;
+		}
+	/* About */
+
+	/* Subscribe */
+		footer > .subscribe {
+			display: block;
+			width: 100%;
+			height: auto;
+			border-bottom: 1px solid #eee;
+		}
+
+		footer > .subscribe form {
+			display: block;
+			width: 500px;
+			height: auto;
+			margin: 0 auto;
+		}
+
+		footer > .subscribe form .btn{
+			padding: 8px 16px;
+		}
+	/* Subscribe */
+
+	/* Navigation */
+		footer .btn-default{
+			width: 100%;
+		}
+
+		footer .dropdown-menu {
+			width: 100%;
+			min-width: auto;
+		}
+
+		footer .list-group a {
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+
+		footer .list-group a:hover,
+		footer .list-group a:active {
+			color: #00a1b4;
+			background-color: transparent;
+		}
+	/* Navigation */
+
+	/* Social */
+		footer .social{
+			display: block;
+			width: 100%;
+			height: auto;
+		}
+
+		footer .social > a{
+			position: relative;
+			display: inline-block;
+			width: 48px;
+			height:48px;
+			background-color: #fff;
+			border: 1px solid #ccc;
+			box-sizing: border-box;
+			margin: 0 10px;
+			padding: 6px;
+
+			font-size: 32px;
+			line-height: 32px;
+			text-align: center;
+			color: #000;
+
+			-webkit-transition: all 0.1s;
+			-moz-transition: all 0.1s;
+			-ms-transition: all 0.1s;
+			-o-transition: all 0.1s;
+			transition: all 0.1s;
+		}
+
+		footer .social > a:hover{
+			background-color: #00a1b4;
+			border-color: #00a1b4;
+			color: #fff;
+		}
+	/* Social */
+
+	/* Payments */
+		footer .payment-icons {
+			display: block;
+			width: 100%;
+			height: auto;
+			overflow: hidden;
+		}
+
+		footer .payment-icons > img {
+			width: 70px;
+			height: auto;
+			float: left;
+			margin-right: 20px;
+		}
+	/* Payments */
+
+	/* Dropdowns */
+		.btn.dropdown-toggle {
+			background-color: transparent;
+			border: none;
+			font-size: 14px;
+			text-align: left;
+			padding: 5px 0px;
+			/*border-bottom: 1px solid #00a1b4;*/
+		}
+
+		.btn.dropdown-toggle:hover, .btn.dropdown-toggle:active, .btn.dropdown-toggle:focus {
+			background-color: #fff !important;
+		}
+	/* Dropdowns */
+/* Footer */
+@media (max-width: 767px) {
+    /* Footer */
+		/* About */
+			footer .about .item > i {
+				float: left;
+				display: block;
+				font-size: 34px;
+				line-height: 38px;
+				margin-right: 8px;
+			}
+
+			footer .about .item > h1 {
+				float: left;
+				display: block;
+				font-size: 14px;
+				line-height: 18px;
+				margin: 0 0 20px 0;
+			}
+		/* About */
+
+		/* Subscribe */
+			footer > .subscribe {
+				display: block;
+				width: 100%;
+				height: auto;
+				border-bottom: 1px solid #eee;
+			}
+
+			footer > .subscribe form {
+				display: block;
+				width: 100%;
+				height: auto;
+				margin: 0 auto;
+			}
+
+			footer > .subscribe form .btn{
+				padding: 8px 16px;
+			}
+		/* Subscribe */
+
+		/* Social */
+			footer .social > a{
+				position: relative;
+				display: inline-block;
+				width: 45px;
+				height:45px;
+				background-color: #fff;
+				border: 1px solid #ccc;
+				box-sizing: border-box;
+				margin: 0px;
+				padding: 5px;
+
+				font-size: 32px;
+				line-height: 32px;
+				text-align: center;
+				color: #000;
+			}
+		/* Social */
+
+		/* Payments */
+			footer .payments {
+				text-align: center;
+			}
+
+			footer .payment-icons {
+				display: block;
+				width: 100%;
+				height: auto;
+				overflow: hidden;
+				text-align: center;
+			}
+
+			footer .payment-icons > img {
+				float: none;
+				display: inline-block;
+				width: 70px;
+				height: auto;
+				margin: 0px 10px;
+			}
+		/* Payments */
+
+		/* Menu */
+			footer .menu {
+				position: relative;
+			}
+
+			footer .menu .col-sm-3 {
+				padding-top: 10px;
+				padding-bottom: 10px;
+			}
+
+			footer .menu h1 {
+				position: relative;
+				display: block;
+				width: 100%;
+			}
+
+			footer .menu h1 > i {
+				position: absolute;
+				top: 0;
+				left: auto;
+				right: 0;
+
+				-webkit-transition: all 0.3s;
+				-moz-transition: all 0.3s;
+				-ms-transition: all 0.3s;
+				-o-transition: all 0.3s;
+				transition: all 0.3s;
+
+				-webkit-transform-origin: 50% 40%;
+				transform-origin: 50% 40%;
+			}
+
+			footer .menu h1 > i.open {
+				-webkit-transform: rotate(135deg);
+				-moz-transform: rotate(135deg);
+				-ms-transform: rotate(135deg);
+				-o-transform: rotate(135deg);
+				transform: rotate(135deg);
+			}
+
+			footer .menu .list-group {
+				display: none;
+			}
+		/* Menu */
+	/* Footer */
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Footer */
+		/* About */
+			footer .about .item > h1 {
+				float: left;
+				display: block;
+				font-size: 16px;
+				line-height: 18px;
+				margin: 0;
+			}
+		/* About */
+	/* Footer */
+}

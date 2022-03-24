@@ -1,0 +1,82 @@
+/* Tags */
+.container.tags{
+		height: auto;
+		text-align: left;
+	}
+
+	.container.tags > p{
+		display: inline-block;
+	}
+
+	.container.tags .btn-group > label{
+		box-sizing: border-box;
+		margin: 0 5px;
+		padding-left: 15px;
+		padding-right: 15px;
+		border-radius: 60px !important;
+	}
+
+	.container.tags button > i{
+		position: relative;
+		display: inline-block;
+
+		-webkit-transition: all 0.7s;
+		-moz-transition: all 0.7s;
+		-ms-transition: all 0.7s;
+		-o-transition: all 0.7s;
+		transition: all 0.7s;
+
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	.container.tags button > i.rotate{
+		-webkit-transform: translateY(-2px) rotate(180deg);
+		-moz-transform: translateY(-2px) rotate(180deg);
+		-ms-transform: translateY(-2px) rotate(180deg);
+		-o-transform: translateY(-2px) rotate(180deg);
+		transform: translateY(-2px) rotate(180deg);
+	}
+/* Tags */
+/* Pagination */
+	.pagination{
+		display: block;
+		width: 100%;
+		text-align: center;
+		margin-top: 70px;
+	}
+
+	.pagination > li {
+	    display: inline-block;
+	}
+
+	.pagination > li > a, .pagination > li > span {
+	    position: relative;
+	    float: left;
+	    padding: 6px 12px;
+	    margin-left: -1px;
+	    line-height: 1.42857143;
+	    color: #333;
+	    text-decoration: none;
+	    background-color: #fff;
+	    border: none;
+	    border-radius: 3px !important;
+	}
+
+	.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+	    z-index: 3;
+	    color: #fff;
+	    cursor: default;
+	    background-color: #B5B7B7;
+	    border-color: #B5B7B7;
+	}
+	.hidden {
+		display: none;
+	}
+	.disabled {
+		pointer-events:none; 
+		opacity:0.6;      
+	}
+/* Pagination */
